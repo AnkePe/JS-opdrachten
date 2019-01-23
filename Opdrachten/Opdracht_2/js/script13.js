@@ -1,4 +1,13 @@
 // maak calcBMI functie die onclick start
-// vraag gewicht in kg
-// vraag lengte in cm
-// bereken het bmi vb wie 50kg weegt en 150cm groot is
+// vraag gewicht
+// vraag lengte
+// bereken het bmi: gewicht in kg delen door kwadraat
+// van hoogte in meter
+
+const bmi = (a, b) => a / (b * b)
+const calcBMI = () => {
+    const gewicht = prompt (`Geef uw gewicht in kg`)
+    const lengte = prompt (`Geef uw lengte in cm`)
+
+
+}
