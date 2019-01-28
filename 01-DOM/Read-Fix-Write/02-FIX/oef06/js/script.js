@@ -9,7 +9,7 @@ episodesText.forEach($ep => console.log($ep));
 
 
 
-
+// oplossing Thijs met vergelijkingsfunctie
 
 // const sortEpisodeByTitle = ($a, $b) => {
 //   const titleA = ;
