@@ -1,0 +1,18 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+.vierkant {
+  width: 8rem;
+  height: 8rem;
+  background-color: black;
+  margin: 1rem;
+}
+#displayVilain {
+  display: none
+}

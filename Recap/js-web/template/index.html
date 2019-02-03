@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>BeCode/JavaScript for the Web Exercise</title>
+
+    <link rel="icon" href="./_shared/img/becode-seal.png" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>BeCode / JavaScript for the Web</h1>
+        <h2>
+          <strong><i class="fas fa-arrow-right"></i> First 4 exercices <i class="fas fa-arrow-left"></i></strong>
+        </h2>
+      </header>
+      <!-- Ex 1 -->
+      <div class="content">
+        <p>
+          <i class="fas fa-arrow-right"></i> Color selector <i class="fas fa-arrow-left"></i>
+        </p>
+        <button class="color">Blue</button>
+        <button class="color">Red</button>
+        <button class="color">Green</button>
+        <div class="vierkant"></div>  
+      </div>
+      <!-- Ex 2 -->
+      <div class="content">
+        <p>
+          <i class="fas fa-arrow-right"></i> Calculator <i class="fas fa-arrow-left"></i>
+        </p>
+        <label for="num_1">Number 1</label>
+        <input type="number" id="num_1" name="num_1">
+        <label for="num_2">Number 2</label>
+        <input type="number" id="num_2" name="num_2">        
+        <button class="calc">+</button>
+        <button class="calc">-</button>
+        <button class="calc">*</button>
+        <button class="calc">/</button>
+        <label for="total">Result</label>
+        <input type="number" id="calcTotal" name="calcTotal"> 
+      </div>
+      <!-- Ex 3 -->
+      <div class="content">
+        <p>
+          <i class="fas fa-arrow-right"></i> Super Vilain application form <i class="fas fa-arrow-left"></i>
+        </p>
+        <form id="formVilain">
+          <label for="nickName">Super vilain name: </label><br>
+          <input type="text" id="nickName" name="nickName"><br><br>
+          <label for="superPower">Super power: </label><br>
+          <input type="text" id="superPower" name="superPower"><br><br>
+          <label for="motivation">Motivation: </label><br>
+          <textarea name="motivation" id="motivation" cols="100" rows="3"></textarea><br><br>
+          <label for="plan">Plan to conquer the world: </label><br>
+          <textarea name="plan" id="plan" cols="100" rows="3"></textarea><br><br>
+          <button type="reset">Reset</button>
+          <button type="button" class="displayForm">Display</button>
+        </form>
+        <div id="displayVilain">
+          <h4 id="Vilain">Who will conquer the World?</h4>
+          <p id="who">wie</p>
+          <h4 id="Vilain">What's his/her superpower?</h4>
+          <p id="what">wat</p>
+          <h4 id="Vilain">How would (s)he do it?</h4>
+          <p id="how">hoe</p>
+          <h4 id="Vilain">And why?</h4>
+          <p id="why">waarom</p>
+        </div>
+      </div>
+      <!-- Ex 4 -->
+      <div class="content">
+        <p>
+          <i class="fas fa-arrow-right"></i> Age calculator <i class="fas fa-arrow-left"></i>
+        </p>
+        <p>Wanneer bent u geboren?</p>
+        <label for="birthYear">jaar: </label>
+        <select name="birthYear" id="birthYear"></select>
+        <label for="birthMonth">maand: </label>
+        <select name="birthMonth" id="birthMonth"></select>
+        <label for="birthDay">dag: </label>
+        <select name="birthDay" id="birthDay"></select><br><br>
+
+        <button id="leeftijd">check hier uw leeftijd</button>
+        
+
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
